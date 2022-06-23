@@ -18,8 +18,8 @@ describe ResponsibleBusiness do
   end
 end
 
-describe Chief do
-  let(:business) { Chief.new }
+describe ChiefBusiness do
+  let(:business) { ChiefBusiness.new }
 
   example '主任は起立する' do
     expect(business.stand_up).to eq '主任は起立する'
